@@ -1,0 +1,3 @@
+<host> ::= 10.209.202.242
+
+http://<host>/api/logi

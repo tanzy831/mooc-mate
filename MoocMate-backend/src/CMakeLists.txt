@@ -1,0 +1,8 @@
+SET(MOOK_MATE_SRCS
+    main.cc
+    utils.cc
+)
+
+INCLUDE_DIRECTORIES(../inc)
+ADD_EXECUTABLE(MookMate ${MOOK_MATE_SRCS})
+TARGET_LINK_LIBRARIES(MookMate ${Boost_LIBRARIES} pthread)
